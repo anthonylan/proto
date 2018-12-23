@@ -3,7 +3,7 @@
     <div class="wrapper">
     <img class="logo" src="../assets/logo.png" alt="logo">
     <h2>Prototyping made easy</h2>
-    <a href="https://github.com/anthonylan/proto/blob/master/proto.css" class="download" download>Download</a>
+    <a href="https://github.com/anthonylan/proto/tree/master/src/proto/proto.css" class="download" download>Download</a>
     </div>
   </div>
 </template>
