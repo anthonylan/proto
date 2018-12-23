@@ -1,29 +1,26 @@
-# lessons
+# Proto
 
-## Project setup
-```
-npm install
-```
+Proto.css is a lightweight css boiler plate for prototyping web projects, it's very lightweight at less than 200 lines of code.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Alhough we won't all the utility of larger frameworks from it, as it only styles a handful of standard HTML elements and also includes grids.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+It's very easy to get started, no compiling or installing needed.
 
-### Run your tests
-```
-npm run test
-```
+## Features
 
-### Lints and fixes files
-```
-npm run lint
-```
+ * Container 80%
+ * Container-gap 70%
+ * Grid
+ * Typography
+ * Buttons
+ * Form Inputs
+ * Lists
+ * Table
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ # Contributing
+ * Fork it!
+ * Add your feature(s)
+ * Submit request 
+
+
+[Visit proto =>]()
