@@ -1,0 +1,194 @@
+/*
+2018 - Proto.css
+v. 0.0.1
+github.com/anthonylan
+*/
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700");
+body, html {
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+/*TYPOGRAPHY*/
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.9rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.3rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+/*BUTTONS*/
+button, input[type='submit'], input[type='button'], .button {
+  padding: 10px 18px;
+  display: inline-block;
+  margin: 5px 0;
+  background-color: white;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: .9rem;
+  font-weight: 400;
+  text-shadow: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+  transition: all .2s ease-in-out;
+}
+button:hover, input[type='submit']:hover, input[type='button']:hover, .button:hover {
+  border: 1px solid #999;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.button {
+  padding: 9px 15px;
+}
+
+input.colored, .colored {
+  background: #2185d0;
+  color: white;
+  border-color: #2185d0;
+}
+input.colored:hover, .colored:hover {
+  border-color: #1e77ba;
+  background: #1e77ba;
+  color: white;
+}
+
+/*CONTAINER*/
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container-gap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+/*GRID*/
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.row .col-1 {
+  flex-basis: 7.66666666667%;
+}
+.row .col-2 {
+  flex-basis: 15.3333333333%;
+}
+.row .col-3 {
+  flex-basis: 24%;
+}
+.row .col-4 {
+  flex-basis: 32.6666666667%;
+}
+.row .col-5 {
+  flex-basis: 40.3333333333%;
+}
+.row .col-6 {
+  flex-basis: 49%;
+}
+.row .col-7 {
+  flex-basis: 56.6666666667%;
+}
+.row .col-8 {
+  flex-basis: 65.3333333333%;
+}
+.row .col-9 {
+  flex-basis: 74.0%;
+}
+.row .col-10 {
+  flex-basis: 91.3333333333%;
+}
+.row .col-10 {
+  flex-basis: 82.6666666667%;
+}
+.row .col-11 {
+  flex-basis: 91.3333333333%;
+}
+.row .col-12 {
+  flex-basis: 100%;
+}
+@media (max-width: 550px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+/*FORM INPUTS*/
+input[type='text'], input[type='email'],
+input[type='search'], select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #555;
+}
+input[type='text']:focus, input[type='email']:focus,
+input[type='search']:focus, select:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #2185d0;
+}
+
+label {
+  font-weight: bold;
+}
+
+/*LIST*/
+ul li {
+  list-style: circle;
+}
+
+table {
+  width: 100%;
+  border-radius: 5px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  font-size: .9rem;
+}
+table thead tr {
+  border-bottom: 1px solid #ddd;
+}
+table thead th {
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+}
+table thead th:first-child {
+  border-radius: 5px 0 0 0;
+}
+table thead th:last-child {
+  border-radius: 0 5px 0 0;
+}
+table tbody td {
+  padding: 10px;
+  text-align: left;
+  background: white;
+  border-bottom: 1px solid #ddd;
+}
