@@ -1,6 +1,6 @@
 # [Proto](https://protocss.netlify.com/)
 
-Proto.css is a lightweight css boiler plate for prototyping web projects, it's very lightweight at less than 200 lines of code.
+Proto.css is a lightweight css boilerplate for prototyping web projects, it's very lightweight at less than 200 lines of code.
 
 Although you won't have all the utility of a larger frameworks from it, as it only styles a handful of standard HTML elements and also includes grid, and containers.
 
